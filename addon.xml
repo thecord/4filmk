@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.4filmk" name="4filmk" version="0.0.1" provider-name="TheCoRd">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+  <import addon="script.module.addon.common" />
+  <import addon="script.module.urlresolver"  version="2.1.2"/>
+  <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">this is an addon provided by TheCoRd for arabic users, affording english, indian, arabic movies with subtitles on</summary>
+    <language>en</language>
+    <description lang="en">this addon help to watch arabic,english, and indian movies and Tv-shows besides some of turkish Tv-shows. hopefully, you would enjoy it and having a nice time </description>
+     <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
